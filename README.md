@@ -42,7 +42,8 @@ start index.html
 
 ## 📷 Screenshots
 
-![image](https://github.com/user-attachments/assets/b490944f-1712-4a6b-aae2-27a755659f87)
+![image](https://github.com/user-attachments/assets/418dd943-e46f-4be1-8879-74c2098ba04c)
+
 
 
 
