@@ -1,0 +1,77 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #162447;
+  color: #eaeaea;
+}
+
+/* Navigation Styling */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #1f4068;
+  transition: background-color 0.4s ease;
+  z-index: 999;
+}
+
+nav.scrolled {
+  background-color: #1b1b2f;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: #eaeaea;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease, background 0.3s ease, transform 0.3s ease;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #e43f5a;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+/* Sections */
+section {
+  height: 100vh;
+  padding: 100px 20px 20px;
+}
+
+#home {
+  background: linear-gradient(135deg, #21e6c1 0%, #162447 100%);
+  color: #1b1b2f;
+}
+#about {
+  background: linear-gradient(135deg, #278ea5 0%, #21e6c1 100%);
+  color: #1b1b2f;
+}
+#services {
+  background: linear-gradient(135deg, #1f4068 0%, #278ea5 100%);
+  color: #eaeaea;
+}
+#contact {
+  background: linear-gradient(135deg, #162447 0%, #1f4068 100%);
+  color: #eaeaea;
+}
